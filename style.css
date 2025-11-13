@@ -1,0 +1,288 @@
+/* General reset */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width:90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* Navbar */
+nav {
+    background: #dc3545;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background: #dc3545;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #dc3545;
+}
+
+/* Messages */
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+p a {
+    color: #dc3545;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* ====== Tambahan untuk halaman data (master product & supplier) ====== */
+
+/* Kontainer besar untuk halaman data */
+.page-container {
+    width: 90%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabel data */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Header tabel */
+.data-table thead {
+    background-color: #c82333;
+    color: white;
+    text-align: left;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Warna baris selang-seling */
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Efek hover baris */
+.data-table tbody tr:hover {
+    background-color: #eef5ff;
+}
+
+/* Tombol edit dan delete */
+.btn-edit, .btn-delete {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.btn-edit {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-edit:hover {
+    background-color: #218838;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Heading halaman data */
+.page-container h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* ===== FORM EDIT & DELETE STYLE ===== */
+
+.edit-container {
+    width: 400px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.edit-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.edit-container input[type="text"],
+.edit-container input[type="email"],
+.edit-container input[type="number"],
+.edit-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    transition: all 0.2s ease;
+}
+
+.edit-container input:focus,
+.edit-container textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* Buttons */
+button,
+.btn-cancel {
+    display: inline-block;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Save / Update button */
+button {
+    background-color: #dc3545;
+}
+
+button:hover {
+    background-color: #dc3545;
+}
+
+/* Cancel button */
+.btn-cancel {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
+
+.btn-cancel:hover {
+    background-color: #b02a37;
+}
+
+/* Confirmation Message (Delete Page) */
+.confirm-box {
+    background: #fff3cd;
+    border-left: 6px solid #ffc107;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.confirm-box h3 {
+    color: #856404;
+    margin-bottom: 20px;
+}
+
+.confirm-box .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.confirm-box .btn-delete:hover {
+    background-color: #b02a37;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+
