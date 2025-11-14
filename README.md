@@ -1,5 +1,4 @@
 ![Tampilan Dashboard Admin](Dashboard_Admin.png)
-![Tampilan Dashboard Reguler User](Dashboard_Reguler_user.png)
 ![Tampilan Master User Admin Only](Master_User_Admin_Only.png)
 ![Tampilan Master Product Reguler User](Master_Product_reguler_user.png)
 ![Tampilan Master Product Admin](Master_Product_Admin.png)
